@@ -54,7 +54,6 @@ const handleHover = function (e) {
     }
 
     if (!btnRatingContainer.classList.contains("clicked")) {
-      console.log("hover");
       if (currentBtn.classList.contains("btn-hover")) {
         currentBtn.classList.remove("btn-hover");
         siblings.forEach((el) => {

@@ -31,16 +31,16 @@ body {
   width: 85%;
   margin: 0 auto;
   background-color: var(--darkBlue);
-  padding: 2rem 1.5rem;
-  border-radius: 0.75rem;
+  padding: 1.5rem 1.5rem;
+  border-radius: 1rem;
   animation: fadeIn 2s ease forwards;
 }
 
 .rating-header {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
-  margin-bottom: 1.3rem;
+  gap: 0.9rem;
+  margin-bottom: 1.2rem;
 }
 
 .icon {
@@ -53,11 +53,11 @@ body {
 }
 
 .rating-title {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .rating-text {
-  font-size: 1rem;
+  font-size: 0.75rem;
   line-height: 1.7;
   color: var(--lightGrey);
 }
@@ -75,8 +75,8 @@ body {
 .btn-rating {
   border: none;
   background-color: #262f38;
-  width: 40px;
-  height: 40px;
+  width: 32px;
+  height: 32px;
   border-radius: 50%;
   color: var(--lightGrey);
   box-shadow: 0 0 10px 1px rgba(31, 31, 31, 0.3);
@@ -143,11 +143,11 @@ body {
   position: absolute;
   display: none;
   background-color: rgb(255, 32, 32);
-  padding: 1rem;
+  padding: 0.8rem;
   border-radius: 12px;
   border-bottom-left-radius: 0px;
-  right: 2rem;
-  top: 2rem;
+  right: 1rem;
+  top: 1rem;
   width: auto;
   transition: background-color 200ms linear;
   animation: fadeIn 1s ease forwards;
@@ -163,6 +163,7 @@ footer {
 }
 
 .attribution {
+  font-size: 0.75rem;
   letter-spacing: 2px;
   color: var(--lightGrey);
 }
@@ -180,7 +181,24 @@ footer {
 
 @media only screen and (min-width: 420px) {
   .card {
-    width: 23rem;
+    width: 22rem;
+    padding: 2rem 1.5rem;
+  }
+
+  .rating-header {
+    gap: 1rem;
+  }
+
+  .rating-title {
+    font-size: 1rem;
+  }
+  .rating-text {
+    font-size: 0.8rem;
+  }
+
+  .btn-rating {
+    width: 40px;
+    height: 40px;
   }
 }
 

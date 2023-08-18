@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Demo](https://ayoblt.github.io/interactive-rating-component/)
 
 ### Built with
 
@@ -43,4 +43,4 @@ Users should be able to:
 
 ## Author
 
-- Twitter - [@_lateeftaiwo](https://www.twitter.com/_lateeftaiwo)
+- Twitter - [@\_lateeftaiwo](https://www.twitter.com/_lateeftaiwo)
