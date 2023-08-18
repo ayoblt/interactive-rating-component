@@ -24,11 +24,15 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![desktop inactive](images/desktop-inactive.png)
+![desktop active](images/desktop-active.png)
+![desktop clicked](images/desktop-clicked.png)
+![mobile inactive](images/mobile-inactive.png)
+![mobile active](images/mobile-active.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [solution](https://www.frontendmentor.io/solutions/interactive-rating-component-with-vanilla-javascript-Ib7ELus13H)
 - Live Site URL: [Demo](https://ayoblt.github.io/interactive-rating-component/)
 
 ### Built with
